@@ -1,0 +1,9 @@
+{
+	"$schema": "https://next.biomejs.dev/schemas/2.0.0-beta.2/schema.json",
+	"files": {
+		"includes": ["**", "!invalid-jsons/**", "!**/node_modules/**"]
+	},
+	"formatter": {
+		"enabled": true
+	}
+}

@@ -1,0 +1,106 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@biomejs/biome':
+        specifier: https://pkg.pr.new/biomejs/biome/@biomejs/biome@35a7aa7
+        version: https://pkg.pr.new/biomejs/biome/@biomejs/biome@35a7aa7
+
+packages:
+
+  '@biomejs/biome@https://pkg.pr.new/biomejs/biome/@biomejs/biome@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/biome@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    hasBin: true
+
+  '@biomejs/cli-darwin-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [darwin]
+
+  '@biomejs/cli-darwin-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [darwin]
+
+  '@biomejs/cli-linux-arm64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [linux]
+
+  '@biomejs/cli-linux-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [linux]
+
+  '@biomejs/cli-linux-x64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [linux]
+
+  '@biomejs/cli-linux-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [linux]
+
+  '@biomejs/cli-win32-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [win32]
+
+  '@biomejs/cli-win32-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@35a7aa7':
+    resolution: {tarball: https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@35a7aa7}
+    version: 1.9.4
+    engines: {node: '>=14.21.3'}
+    os: [win32]
+
+snapshots:
+
+  '@biomejs/biome@https://pkg.pr.new/biomejs/biome/@biomejs/biome@35a7aa7':
+    optionalDependencies:
+      '@biomejs/cli-darwin-arm64': https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@35a7aa7
+      '@biomejs/cli-darwin-x64': https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@35a7aa7
+      '@biomejs/cli-linux-arm64': https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@35a7aa7
+      '@biomejs/cli-linux-arm64-musl': https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@35a7aa7
+      '@biomejs/cli-linux-x64': https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@35a7aa7
+      '@biomejs/cli-linux-x64-musl': https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@35a7aa7
+      '@biomejs/cli-win32-arm64': https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@35a7aa7
+      '@biomejs/cli-win32-x64': https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@35a7aa7
+
+  '@biomejs/cli-darwin-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-darwin-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-linux-arm64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-linux-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-linux-x64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-linux-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-win32-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@35a7aa7':
+    optional: true
+
+  '@biomejs/cli-win32-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@35a7aa7':
+    optional: true
