@@ -3,7 +3,7 @@
 It seems like the ignored files are handled differently when `--config-path` parameter is specified:
 
 ```plain
-biome format .
+pnpm biome format .
 
 Checked 2 files in 975µs. No fixes applied.
 ```
